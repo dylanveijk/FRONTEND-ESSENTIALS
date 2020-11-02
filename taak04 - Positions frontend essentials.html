@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"
+        <meta name="vieuwport" content="width"=device-width, initial-scale=1.0">
+        <title>HTML CSS Positions</title>
+        <style>
+            .children{
+                padding: 5px;
+            }
+            .parent{
+                background-color: blue;
+                position: relative; 
+                top: 30px;
+                right: 10px;
+
+            }
+            #child-1{
+             background-color: greenyellow;
+             position: relative;
+             left: 0px;}
+
+             #child-2{
+                 background-color: orangered;
+                 position: absolute;
+             }
+
+             #child-3{
+                 background-color: slateblue;
+                 position: fixed;
+                 bottom: 0px;
+             }
+             
+        </style>
+    </head>
+    <body>
+       <div class="parent">
+        <h1>parent</h1>
+        <div id="child-1" class="children"><h1 id="kop1">een</h1></div>
+        <div id="child-2" class="children"><h1 id="kop2">twee</h1></div>
+        <div id="child-3" class="children"><h1 id="kop3">drie</h1></div>
+       </div>
+
+    </body>
+    </html>
