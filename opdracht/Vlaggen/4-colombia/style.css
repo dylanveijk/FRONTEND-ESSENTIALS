@@ -1,0 +1,39 @@
+
+*{
+    font-size:0;
+}
+
+#container{
+    width: 300px;;
+    height: 200px;
+    border: 1px solid black;
+   
+}
+
+
+
+#bovenkant{
+    width: 300px;
+    height: 200px;
+    background-color:yellow;
+    border: 1px solid black;
+    
+
+}
+
+#midden{
+    width: 300px;
+    height: 50%;
+    background-color:blue;
+    border: 1px solid black;
+    
+}
+
+#onderkant{
+    width: 300px;
+    height: 50%;
+    background-color:red;
+    border: 1px solid black;
+    
+}
+
