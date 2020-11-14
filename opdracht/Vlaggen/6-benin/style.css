@@ -1,0 +1,47 @@
+
+*{
+    font-size:0;
+}
+
+#container{
+    width: 535px;
+    height: 376px;
+    border: 3px solid black;
+    
+   
+}
+
+
+
+#links{
+    width: 85px;
+    height: 122px;
+    background-color:red;
+    display: inline-block;position: absolute;
+    padding-top: 255px;
+    padding-left: 450px;
+   
+    
+
+}
+
+#rechtsboven{
+width: 85px; ;
+height:122px ;
+background-color:yellow;
+display: inline-block;position: absolute;
+padding-left: 450px;
+padding-top: 85px;
+
+
+
+}
+
+#rechtsonder{
+    width: 200px;
+    height:50% ;
+    background-color:green;
+    display: inline-block; position: absolute;
+   
+    
+}
