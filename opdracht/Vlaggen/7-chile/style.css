@@ -1,0 +1,40 @@
+
+
+*{
+    font-size:0;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    
+    border: 1px solid black;
+}
+
+
+
+#onder{
+    width: 800px;
+    height: 250px;
+    background-color:white;
+    display: inline;position: absolute;
+    
+}
+
+#rechtsboven{
+    width: 800px;
+    height: 15px;
+    background-color:red;
+    display: inline;position: absolute;
+    padding-top: 500px;
+}
+
+#linksboven{
+width: 250px;
+height: 250px;
+background-color: blue;
+display: inline;position: absolute;
+padding-bottom: 750px;
+
+}
+
