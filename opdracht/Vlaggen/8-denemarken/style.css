@@ -1,0 +1,39 @@
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.linksonder{
+    width: 30%;
+    height: 40%;
+    background-color:red;
+    display: inline-block;
+    margin: 0% 5% 5% 0%;
+}
+
+.linksboven{
+    width: 30%;
+    height: 40%;
+    display: inline-block;
+    background-color:red;
+    margin: 5% 5% 0% 0%;
+}
+
+.rechtsboven{
+    width: 50%;
+    height: 40%;
+    display: inline-block;
+    background-color: red;
+    margin: 0% 0% 5% 5%;
+}
+
+.rechtsonder{
+    width: 50%;
+    height: 40%;
+    background-color: red;
+    display: inline-block;
+    margin: 5% 0% 0% 5%;
+}
