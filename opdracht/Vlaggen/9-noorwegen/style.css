@@ -1,0 +1,47 @@
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+
+.linksonder{
+    width: 35%;
+    height: 40%;
+    background-color:red;
+    display: inline-block;
+    margin: 0% 5% 5% 0%;
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+}
+
+.linksboven{
+    width: 35%;
+    height: 41%;
+    display: inline-block;
+    background-color:red;
+    margin: 5% 5% 0% 0%;
+    border-top: 10px solid white;
+    border-right: 10px solid white;
+}
+
+.rechtsboven{
+    width: 52.3%;
+    height: 40%;
+    display: inline-block;
+    background-color: red;
+    margin: 0% 0% 5% 5%;
+    border-bottom: 10px solid white;
+    border-left: 10px solid white;
+}
+
+.rechtsonder{
+    width: 52.3%;
+    height: 41%;
+    background-color: red;
+    display: inline-block;
+    margin: 5% 0% 0% 5%;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+}
