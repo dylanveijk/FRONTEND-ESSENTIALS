@@ -35,6 +35,20 @@
    <a href="C:\Users\dylan\OneDrive\jaar 1\frontend-essentials\opdracht\Vlaggen\9-noorwegen\9-noorwegen.html">9-Noorwegen vlag</a>
      </p>
 
+
+     <h1 id="voornaam"></h1>
+     <h1 id="achternaam"></h1>
+
+     <ul>
+        <li id="email"></li>
+        <li id="leeftijd"></li>
+        <li id="woonplaats"></li>
+    </ul>
+
+
+
+
+
     <script>
         
         let persoon = {
@@ -43,14 +57,27 @@
             email : prompt("wat is je email?"),
             leeftijd : prompt("Wat is je leeftijd?"),
             woonplaats : prompt("wat is je woonplaats?"),
-            
-              
-        };
+                
+        }; 
+        if (persoon["voornaam"] !=null) {
+        document.getElementById("voornaam").innerHTML = persoon["voornaam"];
+        }
 
+        if (persoon["achternaam"] !=null) {
+        document.getElementById("achternaam").innerHTML = persoon["achternaam"];
+        }
 
+        if (persoon["email"] !=null) {
+        document.getElementById("email").innerHTML = persoon["email"];
+        }
+        if(persoon["leeftijd"] != null && !isNaN(persoon["leeftijd"])){
+          document.getElementById("leeftijd").innerHTML = persoon["leeftijd"];
+      } 
 
-        
-        
+      if (persoon["woonplaats"] !=null) {
+        document.getElementById("woonplaats").innerHTML = persoon["woonplaats"];
+        }
     </script>
+    
 </body>
 </html>
